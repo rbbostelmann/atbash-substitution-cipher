@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Atbash Cipher</title>
+  </head>
+  <body>
+    <div id="container">
+      <textarea
+        type="text"
+        id="message"
+        name="message"
+        placeholder="Type your message here..."
+      ></textarea>
+      <br />
+      <textarea type="text" id="cipher" name="cipher" readonly></textarea>
+      <input type="submit" id="submit-btn" value="Submit" />
+      <br />
+      <table class="table-container">
+        <caption>
+          Keys and values for alphabet substitution
+        </caption>
+        <tbody>
+          <tr>
+            <th scope="row">Plain</th>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+            <td>Q</td>
+            <td>R</td>
+            <td>S</td>
+            <td>T</td>
+            <td>U</td>
+            <td>V</td>
+            <td>W</td>
+            <td>X</td>
+            <td>Y</td>
+            <td>Z</td>
+          </tr>
+          <tr>
+            <th scope="row">Cipher</th>
+            <td>Z</td>
+            <td>Y</td>
+            <td>X</td>
+            <td>W</td>
+            <td>V</td>
+            <td>U</td>
+            <td>T</td>
+            <td>S</td>
+            <td>R</td>
+            <td>Q</td>
+            <td>P</td>
+            <td>O</td>
+            <td>N</td>
+            <td>M</td>
+            <td>L</td>
+            <td>K</td>
+            <td>J</td>
+            <td>I</td>
+            <td>H</td>
+            <td>G</td>
+            <td>F</td>
+            <td>E</td>
+            <td>D</td>
+            <td>C</td>
+            <td>B</td>
+            <td>A</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
